@@ -12,6 +12,9 @@
 		8B2262C71C88D5240018D5B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2262C51C88D5240018D5B5 /* Main.storyboard */; };
 		8B2262C91C88D5240018D5B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2262C81C88D5240018D5B5 /* Assets.xcassets */; };
 		8B2262CC1C88D5240018D5B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2262CA1C88D5240018D5B5 /* LaunchScreen.storyboard */; };
+		8B2262D41C88D54F0018D5B5 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2262D31C88D54F0018D5B5 /* opencv2.framework */; };
+		8B2262D61C88D5730018D5B5 /* VideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2262D51C88D5730018D5B5 /* VideoSource.swift */; };
+		8B2262D81C88D6040018D5B5 /* VideoFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2262D71C88D6040018D5B5 /* VideoFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8B2262C81C88D5240018D5B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B2262CB1C88D5240018D5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B2262CD1C88D5240018D5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2262D31C88D54F0018D5B5 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		8B2262D51C88D5730018D5B5 /* VideoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSource.swift; sourceTree = "<group>"; };
+		8B2262D71C88D6040018D5B5 /* VideoFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFrame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2262D41C88D54F0018D5B5 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +45,7 @@
 		8B2262B51C88D5240018D5B5 = {
 			isa = PBXGroup;
 			children = (
+				8B2262D31C88D54F0018D5B5 /* opencv2.framework */,
 				8B2262C01C88D5240018D5B5 /* AROpenCV */,
 				8B2262BF1C88D5240018D5B5 /* Products */,
 			);
@@ -56,6 +64,8 @@
 			children = (
 				8B2262C11C88D5240018D5B5 /* AppDelegate.swift */,
 				8B2262C31C88D5240018D5B5 /* ViewController.swift */,
+				8B2262D51C88D5730018D5B5 /* VideoSource.swift */,
+				8B2262D71C88D6040018D5B5 /* VideoFrame.swift */,
 				8B2262C51C88D5240018D5B5 /* Main.storyboard */,
 				8B2262C81C88D5240018D5B5 /* Assets.xcassets */,
 				8B2262CA1C88D5240018D5B5 /* LaunchScreen.storyboard */,
@@ -136,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B2262C41C88D5240018D5B5 /* ViewController.swift in Sources */,
+				8B2262D81C88D6040018D5B5 /* VideoFrame.swift in Sources */,
 				8B2262C21C88D5240018D5B5 /* AppDelegate.swift in Sources */,
+				8B2262D61C88D5730018D5B5 /* VideoSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +261,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AROpenCV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tvluong.AROpenCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,7 +277,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AROpenCV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tvluong.AROpenCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
