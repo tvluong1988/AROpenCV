@@ -123,9 +123,9 @@ extension VideoSource: AVCaptureVideoDataOutputSampleBufferDelegate {
     CVPixelBufferLockBaseAddress(imageBuffer, kCVPixelBufferLock_ReadOnly)
     
     // Construct VideoFrame struct
-    //    let pointerConversion = UnsafeMutablePointer<CUnsignedChar>(CVPixelBufferGetBaseAddress(imageBuffer))
+    let baseAddress = UnsafeMutablePointer<CUnsignedChar>(CVPixelBufferGetBaseAddress(imageBuffer))
     
-    let baseAddress = CVPixelBufferGetBaseAddress(imageBuffer)
+    //    let baseAddress = CVPixelBufferGetBaseAddress(imageBuffer)
     let width: size_t = CVPixelBufferGetWidth(imageBuffer)
     let height: size_t = CVPixelBufferGetHeight(imageBuffer)
     let stride: size_t = CVPixelBufferGetBytesPerRow(imageBuffer)

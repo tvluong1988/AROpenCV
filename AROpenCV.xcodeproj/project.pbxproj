@@ -15,6 +15,15 @@
 		8B2262D41C88D54F0018D5B5 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2262D31C88D54F0018D5B5 /* opencv2.framework */; };
 		8B2262D61C88D5730018D5B5 /* VideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2262D51C88D5730018D5B5 /* VideoSource.swift */; };
 		8B2262D81C88D6040018D5B5 /* VideoFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2262D71C88D6040018D5B5 /* VideoFrame.swift */; };
+		8B2262DA1C89010C0018D5B5 /* GameControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2262D91C89010C0018D5B5 /* GameControls.swift */; };
+		8B2374091C8BD08800696E7A /* AVAudioPlayer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2374081C8BD08800696E7A /* AVAudioPlayer+Helpers.swift */; };
+		8B23740D1C8BD18F00696E7A /* explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8B23740A1C8BD18F00696E7A /* explosion.caf */; };
+		8B23740E1C8BD18F00696E7A /* laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8B23740B1C8BD18F00696E7A /* laser.caf */; };
+		8B23740F1C8BD18F00696E7A /* powerup.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8B23740C1C8BD18F00696E7A /* powerup.caf */; };
+		8B2374171C8BD8A700696E7A /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B2374161C8BD8A700696E7A /* UIImage+OpenCV.mm */; };
+		8B23741B1C8BDFF000696E7A /* PatternDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B23741A1C8BDFF000696E7A /* PatternDetector.cpp */; };
+		8B883A6C1C8CA6AF0029D5D1 /* PatternDetectorWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B883A6B1C8CA6AF0029D5D1 /* PatternDetectorWrapper.mm */; };
+		8B883A721C8D3D8C0029D5D1 /* ARView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B883A711C8D3D8C0029D5D1 /* ARView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,22 @@
 		8B2262D31C88D54F0018D5B5 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		8B2262D51C88D5730018D5B5 /* VideoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSource.swift; sourceTree = "<group>"; };
 		8B2262D71C88D6040018D5B5 /* VideoFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFrame.swift; sourceTree = "<group>"; };
+		8B2262D91C89010C0018D5B5 /* GameControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameControls.swift; sourceTree = "<group>"; };
+		8B2374081C8BD08800696E7A /* AVAudioPlayer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAudioPlayer+Helpers.swift"; sourceTree = "<group>"; };
+		8B23740A1C8BD18F00696E7A /* explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosion.caf; sourceTree = "<group>"; };
+		8B23740B1C8BD18F00696E7A /* laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laser.caf; sourceTree = "<group>"; };
+		8B23740C1C8BD18F00696E7A /* powerup.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = powerup.caf; sourceTree = "<group>"; };
+		8B2374131C8BD79500696E7A /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		8B2374141C8BD86700696E7A /* AROpenCV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AROpenCV-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B2374161C8BD8A700696E7A /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		8B2374191C8BDE9B00696E7A /* PatternDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternDetector.h; sourceTree = "<group>"; };
+		8B23741A1C8BDFF000696E7A /* PatternDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PatternDetector.cpp; sourceTree = "<group>"; };
+		8B23741C1C8BE48B00696E7A /* VideoFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFrame.h; sourceTree = "<group>"; };
+		8B23741D1C8BE74300696E7A /* PatternDetectorWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternDetectorWrapper.h; sourceTree = "<group>"; };
+		8B883A6B1C8CA6AF0029D5D1 /* PatternDetectorWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PatternDetectorWrapper.mm; sourceTree = "<group>"; };
+		8B883A6D1C8D39500029D5D1 /* CameraCalibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCalibration.h; sourceTree = "<group>"; };
+		8B883A701C8D3D8C0029D5D1 /* ARView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARView.h; sourceTree = "<group>"; };
+		8B883A711C8D3D8C0029D5D1 /* ARView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,16 +87,88 @@
 		8B2262C01C88D5240018D5B5 /* AROpenCV */ = {
 			isa = PBXGroup;
 			children = (
-				8B2262C11C88D5240018D5B5 /* AppDelegate.swift */,
+				8B883A671C8CA3280029D5D1 /* Support */,
 				8B2262C31C88D5240018D5B5 /* ViewController.swift */,
-				8B2262D51C88D5730018D5B5 /* VideoSource.swift */,
-				8B2262D71C88D6040018D5B5 /* VideoFrame.swift */,
+				8B2262D91C89010C0018D5B5 /* GameControls.swift */,
+				8B4FF3F11C8D5065000CECCC /* ARView */,
+				8B883A6A1C8CA3520029D5D1 /* PatternDetector */,
+				8B883A691C8CA3430029D5D1 /* UIImage */,
+				8B883A681C8CA33A0029D5D1 /* Video */,
+				8B883A661C8CA3150029D5D1 /* Audio */,
 				8B2262C51C88D5240018D5B5 /* Main.storyboard */,
+			);
+			path = AROpenCV;
+			sourceTree = "<group>";
+		};
+		8B2374101C8BD19500696E7A /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				8B23740A1C8BD18F00696E7A /* explosion.caf */,
+				8B23740B1C8BD18F00696E7A /* laser.caf */,
+				8B23740C1C8BD18F00696E7A /* powerup.caf */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		8B4FF3F11C8D5065000CECCC /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				8B883A701C8D3D8C0029D5D1 /* ARView.h */,
+				8B883A711C8D3D8C0029D5D1 /* ARView.m */,
+			);
+			name = ARView;
+			sourceTree = "<group>";
+		};
+		8B883A661C8CA3150029D5D1 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				8B2374081C8BD08800696E7A /* AVAudioPlayer+Helpers.swift */,
+				8B2374101C8BD19500696E7A /* Sound */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		8B883A671C8CA3280029D5D1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8B2262C11C88D5240018D5B5 /* AppDelegate.swift */,
 				8B2262C81C88D5240018D5B5 /* Assets.xcassets */,
 				8B2262CA1C88D5240018D5B5 /* LaunchScreen.storyboard */,
 				8B2262CD1C88D5240018D5B5 /* Info.plist */,
+				8B2374141C8BD86700696E7A /* AROpenCV-Bridging-Header.h */,
 			);
-			path = AROpenCV;
+			name = Support;
+			sourceTree = "<group>";
+		};
+		8B883A681C8CA33A0029D5D1 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				8B2262D51C88D5730018D5B5 /* VideoSource.swift */,
+				8B2262D71C88D6040018D5B5 /* VideoFrame.swift */,
+				8B23741C1C8BE48B00696E7A /* VideoFrame.h */,
+				8B883A6D1C8D39500029D5D1 /* CameraCalibration.h */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		8B883A691C8CA3430029D5D1 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				8B2374131C8BD79500696E7A /* UIImage+OpenCV.h */,
+				8B2374161C8BD8A700696E7A /* UIImage+OpenCV.mm */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
+		8B883A6A1C8CA3520029D5D1 /* PatternDetector */ = {
+			isa = PBXGroup;
+			children = (
+				8B23741D1C8BE74300696E7A /* PatternDetectorWrapper.h */,
+				8B883A6B1C8CA6AF0029D5D1 /* PatternDetectorWrapper.mm */,
+				8B2374191C8BDE9B00696E7A /* PatternDetector.h */,
+				8B23741A1C8BDFF000696E7A /* PatternDetector.cpp */,
+			);
+			name = PatternDetector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +231,10 @@
 			files = (
 				8B2262CC1C88D5240018D5B5 /* LaunchScreen.storyboard in Resources */,
 				8B2262C91C88D5240018D5B5 /* Assets.xcassets in Resources */,
+				8B23740E1C8BD18F00696E7A /* laser.caf in Resources */,
+				8B23740D1C8BD18F00696E7A /* explosion.caf in Resources */,
 				8B2262C71C88D5240018D5B5 /* Main.storyboard in Resources */,
+				8B23740F1C8BD18F00696E7A /* powerup.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,10 +245,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B883A6C1C8CA6AF0029D5D1 /* PatternDetectorWrapper.mm in Sources */,
 				8B2262C41C88D5240018D5B5 /* ViewController.swift in Sources */,
+				8B2374091C8BD08800696E7A /* AVAudioPlayer+Helpers.swift in Sources */,
+				8B2374171C8BD8A700696E7A /* UIImage+OpenCV.mm in Sources */,
+				8B2262DA1C89010C0018D5B5 /* GameControls.swift in Sources */,
 				8B2262D81C88D6040018D5B5 /* VideoFrame.swift in Sources */,
 				8B2262C21C88D5240018D5B5 /* AppDelegate.swift in Sources */,
 				8B2262D61C88D5730018D5B5 /* VideoSource.swift in Sources */,
+				8B883A721C8D3D8C0029D5D1 /* ARView.m in Sources */,
+				8B23741B1C8BDFF000696E7A /* PatternDetector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -270,6 +377,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tvluong.AROpenCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AROpenCV/AROpenCV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -277,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -286,6 +396,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tvluong.AROpenCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AROpenCV/AROpenCV-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -308,6 +419,7 @@
 				8B2262D21C88D5240018D5B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
